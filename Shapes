@@ -1,0 +1,36 @@
+#include <iostream>
+ using namespace std;
+ int main ()
+ {
+int Sides;
+ 	cout << " Please Enter How Many Sides Your Shape Consists Of " << endl;
+ 	cin >> Sides;
+ 	if (Sides == 3) {
+ 		cout << " Your Shape Is A Triangle " << endl;
+ 	}
+ 	if (Sides == 4) {
+ 		cout << " Your Shape Is A Quadrilateral " << endl;
+ 	}
+ 	if (Sides == 5) {
+ 		cout << " Your Shape Is A Pentagon " << endl;
+ 	}
+ 	if (Sides == 6) {
+ 		cout << " Your Shape Is A Hexagon " << endl;
+ 	}
+ 	if (Sides == 7) {
+ 		cout << " Your Shape Is A Heptagon " << endl;
+ 	}
+ 	if (Sides == 8) {
+ 		cout << " Your Shape Is An Octagon " << endl;
+ 	}
+ 	if (Sides == 9) {
+ 		cout << " Your Shape Is A Nonagon " << endl;
+ 	}
+ 	if (Sides == 10) {
+ 		cout << " Your Shape Is A Decagon " << endl;
+
+ 	}
+ 	else {
+ 		cout << " Wrong Side Number ( IGNORE IF YOU GOT AN ANSWER ) " << endl;
+ 	}
+  }
